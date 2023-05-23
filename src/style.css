@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.nav {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  background-color: rgb(8, 104, 102);
+  width: 25rem;
+  padding: 15px 0 5px 0;
+}
+
+.nav-row1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+  color: white;
+  font-size: 12px;
+  font-family: sans-serif;
+}
+
+.nav-icons {
+  width: 22px;
+  height: 22px;
+  color: white;
+}
+
+.nav-row2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+}
+
+.input {
+  padding: 10px;
+  width: 13rem;
+  border-radius: 6px;
+  border: none;
+  margin-bottom: 5px;
+  background-color: #fff;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+  margin-top: 2rem;
+  background-color: #ffffff;
+  padding: 28px;
+  box-shadow: 0px 0px 8px rgba(183, 179, 179, 0.87);
+  /* margin-top: -rem; */
+}
+
+.main-icon {
+  width: 45px;
+  height: 45px;
+  color: rgb(8, 104, 102);
+}
+
+.icon-row {
+  display: flex;
+  gap: 3rem;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  /* align-items: flex-end; */
+  gap: 3rem;
+
+  /* margin-top: 12rem; */
+}
+.footer-icon {
+  width: 25px;
+  height: 25px;
+  color: rgb(8, 104, 102);
+}
+.container {
+  display: flex;
+  margin: auto;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+  width: 380px;
+  padding-bottom: 2px;
+  /* border: 1px solid black; */
+  /* margin-bottom: 15px; */
+}
+.nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 380px;
+}
+
+/* Responsive Styles */
+
+@media (max-width: 768px) {
+  .nav {
+    width: 100vw;
+  }
+  .nav-container {
+    width: 100vw;
+  }
+  .main {
+    width: 100vw;
+    padding: 8px 0;
+  }
+  .container {
+    overflow: hidden;
+  }
+  .main {
+    margin-top: 3rem;
+  }
+
+  .main-icon {
+    width: 25px;
+    height: 25px;
+  }
+
+  .icon-row {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .footer {
+    margin-top: 6rem;
+  }
+}
+/* @media (max-width: 370px) {
+  .nav {
+    width: 100%;
+  } */
+/* } */
